@@ -57,15 +57,15 @@ Note :
 | CashbackAmount | Float | Average cashback in last month |
 | Churn | Int | 0 – Customer not churn, 1 – Customer churn |
 
-[input Imbalance]
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Imbalance.PNG)
 
 <br />
 
 Data Analysis
 -------------
-[input Hist]
-[input Count]
-[input Heatmap]
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Hist%26Box%20Example.PNG)
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Count%20Example.PNG)
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Heatmap.PNG)
 
 **Analysis :**
 
@@ -87,10 +87,13 @@ Data Analysis
 
 Modelling & Evaluation
 ----------------------
-Setelah melakukan cross validation, model yang terbaik digunakan adalah XGBoost.
+Setelah melakukan cross validation, model yang terbaik digunakan adalah `XGBoost` dengan f1-score 0.7989 sebelum di tuning, dan 0.811 setelah di tuning. Kedua score didapat dari training set, dan mengalami perubahan di test set dimana XGBoost default memiliki f1-score lebih tinggi, comparison dapat dilihat di gambar berikut:
+
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Classification%20Report%20Comparison.PNG)
 
 **Feature Importances :**
-[input impotances]
+
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Feature%20Importances.PNG)
 
 Terlihat bahwa ternyata untuk model XGBoost kita, fitur/kolom `Tenure` adalah yang paling penting, kemudian diikuti dengan `Complain`, `PreferedOrderCat: Laptop & Accessory`, dan selanjutnya.
 
@@ -98,8 +101,8 @@ Terlihat bahwa ternyata untuk model XGBoost kita, fitur/kolom `Tenure` adalah ya
 
 Conclusion & Recommendation
 ---------------------------
-[input classification]
-[input confusion matrix]
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Classification%20Report%20Default%20XGB.PNG)
+![](https://github.com/reinaldoivan/CapstoneModule3/blob/main/Images/Confusion%20Matrix.PNG)
 
 **Conclusion :**
 
