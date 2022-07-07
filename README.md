@@ -1,7 +1,7 @@
-# Capstone Modul 3
-**Machine Learning Project**
+# E-Commerce Churn Analysis
+**Analysis & Machine Learning of Ecommerce Customer Churn Database**
 
-**Database: Ecommerce Customer Churn**
+*Associated with Purwadhika Coding School for Module 3 Capstone Project*
 
 <br />
 
